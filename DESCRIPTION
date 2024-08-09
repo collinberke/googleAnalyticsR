@@ -7,10 +7,12 @@ Description: Interact with the Google Analytics
   the Core Reporting API (v3 and v4), Management API, User Activity API
   GA4's Data API and Admin API and Multi-Channel Funnel API.
 Authors@R: c(person("Mark", "Edmondson", email = "m@sunholo.com",
-                  role = c("aut", "cre"),
+                  role = c("aut"),
                   comment = c(ORCID = "0000-0002-8434-3881")),
-             person(given = "Artem", family = "Klevtsov",
-                    email = "a.a.klevtsov@gmail.com", role = "ctb"),
+           person("Erik", "Grönroos", email = "erik.gronroos@8-bit-sheep.com",
+                  role = "cre"),
+           person(given = "Artem", family = "Klevtsov",
+                  email = "a.a.klevtsov@gmail.com", role = "ctb"),
            person("Johann", "deBoer", email = "johanndeboer@gmail.com", role = "ctb"),
            person("David", "Watkins", email = "wm.david.watkins@gmail.com", role = "ctb"),
            person("Olivia", "Brode-Roger", email = "nibr@mit.edu", role = "ctb"),
@@ -19,8 +21,8 @@ Authors@R: c(person("Mark", "Edmondson", email = "m@sunholo.com",
            person("Octavian", "Corlade", email = "octavian.corlade@gmail.com", role = "ctb"),
            person("Maegan", "Whytock", email = "maegan.whytock@gmail.com", role = "ctb"),
            person("Masaki", "Terashi", email = "terashi.masaki@gmail.com", role = "ctb"))
-URL: https://code.markedmondson.me/googleAnalyticsR/
-BugReports: https://github.com/MarkEdmondson1234/googleAnalyticsR/issues
+URL: https://github.com/8-bit-sheep/googleAnalyticsR/
+BugReports: https://github.com/8-bit-sheep/googleAnalyticsR/issues
 Depends:
     R (>= 3.3.0)
 Imports:
@@ -28,6 +30,7 @@ Imports:
     cli (>= 2.0.2),
     dplyr (>= 0.8.0),
     googleAuthR (>= 1.4.0),
+    gargle (>= 1.2.0),
     httr (>= 1.3.1),
     jsonlite (>= 1.5),
     magrittr (>= 1.5),
@@ -43,10 +46,8 @@ Imports:
     utils,
     whisker
 Suggests:
-    bigQueryR (>= 0.3.1),
     covr,
     formatR,
-    ganalytics,
     googleCloudStorageR (>= 0.2.0),
     htmlwidgets,
     knitr,
@@ -57,7 +58,7 @@ Suggests:
     testthat
 License: MIT + file LICENSE
 LazyData: TRUE
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 Config/testthat/edition: 3
 Config/testthat/parallel: true
 Roxygen: list(markdown = TRUE)

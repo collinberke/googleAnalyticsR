@@ -162,6 +162,7 @@ ga_model_shiny(list(m4, m3), auth_dropdown = "universal",
 }
 \seealso{
 Other GA modelling functions: 
+\code{\link{ga_model}()},
 \code{\link{ga_model_edit}()},
 \code{\link{ga_model_example}()},
 \code{\link{ga_model_load}()},
@@ -169,7 +170,6 @@ Other GA modelling functions:
 \code{\link{ga_model_save}()},
 \code{\link{ga_model_shiny_load}()},
 \code{\link{ga_model_shiny_template}()},
-\code{\link{ga_model_write}()},
-\code{\link{ga_model}()}
+\code{\link{ga_model_write}()}
 }
 \concept{GA modelling functions}

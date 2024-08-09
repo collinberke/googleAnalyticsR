@@ -2,6 +2,7 @@
 
 * Migrate to new `gargle` OOB flow 
 * Add `ga_data()` quota messages on `potentiallyThresholdedRequestsPerHour` and `tokensPerProjectPerHour` (#424)
+* Fix documentation for CRAN checks
 
 # googleAnalyticsR 1.1.0
 

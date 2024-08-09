@@ -8,17 +8,7 @@
 
 0 errors | 0 warnings | 0 notes
 
----
-
-Submission to fix failing test on CRAN.  Have removed tests and stopped examples running.
 
 ## Dependencies
 
-3 packages have googleAnalyticsR in SUGGESTS:
-
-* ganalytics (v0.10.7)
-* googleAuthR (v1.4.0)
-* ryandexdirect (v3.6.0)
-
-All were checked and found no errors, warnings or notes
-
+We checked reverse dependencies, comparing R CMD check results across CRAN and dev versions of this package. Found no errors, warnings or notes.

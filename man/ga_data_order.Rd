@@ -81,7 +81,7 @@ ga_data(
 \url{https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1alpha/OrderBy}
 
 Other GA4 functions: 
-\code{\link{ga_data_filter}()},
-\code{\link{ga_data}()}
+\code{\link{ga_data}()},
+\code{\link{ga_data_filter}()}
 }
 \concept{GA4 functions}
