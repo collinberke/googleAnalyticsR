@@ -31,7 +31,7 @@ ga_model_shiny(
 
 \item{web_json}{The client.id json file for Web}
 
-\item{date_range}{Most templates support a {{ date_range }} global input for the data import functions, set this to FALSE to remove it}
+\item{date_range}{Most templates support a \{\{ date_range \}\} global input for the data import functions, set this to FALSE to remove it}
 
 \item{scopes}{The scope the API requests will be under}
 
