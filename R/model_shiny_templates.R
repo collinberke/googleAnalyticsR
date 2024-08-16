@@ -40,7 +40,7 @@ ga_model_shiny_template <- function(name = "list", read_lines = FALSE){
 #' @param title The title of the Shiny app
 #' @param local_folder If not empty, will not launch Shiny app but write code to the folder location you put here
 #' @param deployed_url If deploying Shiny app to a server, put the URL of the deployed app here so the authentication will redirect to the correct place
-#' @param date_range Most templates support a {{ date_range }} global input for the data import functions, set this to FALSE to remove it
+#' @param date_range Most templates support a \{\{ date_range \}\} global input for the data import functions, set this to FALSE to remove it
 #' @param ... Extra macro variables the template may support: a named list with the name being a template variable
 #' 
 #' @details 
