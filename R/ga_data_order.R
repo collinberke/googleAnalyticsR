@@ -20,9 +20,9 @@
 #' The dimension ordering have these effects:
 #' 
 #' \itemize{
-#'   \item{ALPHANUMERIC}{ For example, "2" < "A" < "X" < "b" < "z"}
-#'   \item{CASE_INSENSITIVE_ALPHANUMERIC}{ Case insensitive alphanumeric sort by lower case Unicode code point. For example, "2" < "A" < "b" < "X" < "z"}
-#'   \item{NUMERIC}{ Dimension values are converted to numbers before sorting. For example in NUMERIC sort, "25" < "100", and in ALPHANUMERIC sort, "100" < "25". Non-numeric dimension values all have equal ordering value below all numeric values}
+#'   \item{ALPHANUMERIC - For example, "2" < "A" < "X" < "b" < "z"}
+#'   \item{CASE_INSENSITIVE_ALPHANUMERIC - Case insensitive alphanumeric sort by lower case Unicode code point. For example, "2" < "A" < "b" < "X" < "z"}
+#'   \item{NUMERIC - Dimension values are converted to numbers before sorting. For example in NUMERIC sort, "25" < "100", and in ALPHANUMERIC sort, "100" < "25". Non-numeric dimension values all have equal ordering value below all numeric values}
 #' }
 #' 
 #' 
