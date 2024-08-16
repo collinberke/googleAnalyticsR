@@ -24,11 +24,11 @@ Use with \link{ga_data} to create orderBys
 The DSL rules are:
 
 \itemize{
-\item{}{Fields can be quoted or unquoted.  If unquoted they will be validated}
-\item{}{Use + as a prefix to indicate ascending order e.g. \code{+sessions}}
-\item{}{Use - as a prefix to indicate decreasing order e.g. \code{-sessions}}
-\item{}{Combine order fields without commas e.g. \code{+sessions -city}}
-\item{}{Ordering of dimensions can also specify a type of ordering: ALPHANUMERIC, CASE_INSENSITIVE_ALPHANUMERIC, NUMERIC}
+\item{Fields can be quoted or unquoted.  If unquoted they will be validated}
+\item{Use + as a prefix to indicate ascending order e.g. \code{+sessions}}
+\item{Use - as a prefix to indicate decreasing order e.g. \code{-sessions}}
+\item{Combine order fields without commas e.g. \code{+sessions -city}}
+\item{Ordering of dimensions can also specify a type of ordering: ALPHANUMERIC, CASE_INSENSITIVE_ALPHANUMERIC, NUMERIC}
 }
 
 The dimension ordering have these effects:
